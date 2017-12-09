@@ -1,5 +1,5 @@
 Tales of Golang
-Brief introduction about Golang
+Brief introduction to Golang
 01 Jan 2018
 
 Ferenc Fabian
@@ -8,6 +8,7 @@ Software Engineer, Fluid Pay
  
 * About me
 - Software Engineer at Fluid Pay
+.html description.html
 - Golang developer ~3 years ago
 - Gopher (which means I am the active user of the Golang community, or something similar)
 .html logo.html
@@ -40,7 +41,7 @@ I made a quick example which is the small copy of the our fraud detection system
 
 - `https://github.com/PumpkinSeed/performance-example-go`
 - What it does: getting users amount as query parameter, generate 20 random rules and random values for them, do the tests based on a ruleengine system
-- What it doesn't do: getting data from database, and it's much smaller and more stupid than the real system Obviously
+- What it doesn't do: getting data from database, and it's much smaller and more stupid than the real system
 
 * Example 2
 
@@ -49,7 +50,7 @@ On the same source code I just discovered a bottleneck occured by the built-in r
 - I used pprof (performance tester tool), because the ~200 ms was too slow for me
 - Why was it slow? Answer: `https://stackoverflow.com/questions/14298523/why-does-adding-concurrency-slow-down-this-golang-code`
 
-* End
+* Thank you
 
 - Questions?
 - Github: `https://github.com/PumpkinSeed`
