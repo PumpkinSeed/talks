@@ -54,6 +54,8 @@ On the same source code I just discovered a bottleneck occured by the built-in r
 
 "Programming as the composition of independently executing processes." - Rob Pike
 
+.html cp.html
+
 * Example 3
 
 - Mutex lock to pretend deadlock
