@@ -50,6 +50,15 @@ On the same source code I just discovered a bottleneck occured by the built-in r
 - I used pprof (performance tester tool), because the ~200 ms was too slow for me
 - Why was it slow? Answer: `https://stackoverflow.com/questions/14298523/why-does-adding-concurrency-slow-down-this-golang-code`
 
+* Concurrency
+
+"Programming as the composition of independently executing processes." - Rob Pike
+
+* Example 3
+
+- Mutex lock to pretend deadlock
+- `https://github.com/PumpkinSeed/adventure-of-golang`
+
 * Thank you
 
 - Questions?
